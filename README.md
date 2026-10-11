@@ -8,7 +8,7 @@ one predefined template, tracks progress, and lets you download the results.
 ## Setup
 
 ```bash
-python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
+python -m venv .venv &&  .venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 ```
